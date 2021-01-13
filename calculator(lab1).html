@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A Simple Calculator</title>
+	<script type="text/javascript">
+		function call(click_id) {
+			var v1=parseFloat(document.getElementById("ip1").value);
+			var v2=parseFloat(document.getElementById("ip2").value);
+
+			if (isNaN(v1) || isNaN(v2)) 
+				alert("Enter a valid number");
+			else if (click_id=="add")
+				document.getElementById("output").value=v1+v2;
+			else if (click_id=="sub") 
+				document.getElementById("output").value=v1-v2;
+			else if (click_id=="mul")
+				document.getElementById("output").value=v1*v2;
+			else
+				document.getElementById("output").value=v1/v2;
+
+			}
+	</script>
+</head>
+<body>
+<h1 align="center">A Simple Calculator</h1>
+<div align="center">
+	<table align="center" bgcolor="yellow">
+		<tr>
+			
+			<td>
+			<form method="get" action="">
+			<div align="center" width=50%>
+				<label>Operand 1 <input type="text" id="ip1" /></label>
+				<label>Operand 2 <input type="text" id="ip2" /></label>
+				<label>Result <input type="text" id="output" /></label>
+			</div>
+			<br>
+			<div align="center" width=50%>
+				<input type="button" value="+" id="add" onclick="call(this.id)" />
+				<input type="button" value="-" id="sub" onclick="call(this.id)" />
+				<input type="button" value="*" id="mul" onclick="call(this.id)" />
+				<input type="button" value="/" id="div" onclick="call(this.id)" />
+				<input type="reset" value="Clear" />
+			</div>
+			</form>
+			</td>
+		
+	</table>
+	
+</div>
+</body>
+</html>

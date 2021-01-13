@@ -1,0 +1,44 @@
+<?xml-stylesheet type="text/css" href="C:\Users\Pavan\Desktop\Web technology lab\lab5\lab5.css" ?>
+<!DOCTYPE HTML>
+<html>
+<head>
+<h1> STUDENTS DESCRIPTION </h1>
+</head>
+
+<students>
+<student>
+
+<USN>USN : 4NN15CS001</USN>
+<name>NAME : SANTHOS</name>
+<college>COLLEGE : NIEIT</college>
+<branch>BRANCH : Computer Science and Engineering</branch>
+<year>YEAR : 2015</year>
+<e-mail>E-Mail : santosh@gmail.com</e-mail>
+</student>
+
+<student>
+
+<USN>USN : 4NN15ISO02</USN>
+<name>NAME : MANORANJAN</name>
+<college>COLLEGE : NIEIT </college>
+<branch>BRANCH : Information Science and Engineering</branch>
+<year>YEAR : 2015</year>
+<e-mail>E-Mail : manoranjan@gmail.com</e-mail>
+
+</student>
+<student>
+
+<USN>USN : 4NN15ISO01</USN>
+<name>NAME : CHETHAN</name>
+<college>COLLEGE : NIEIT </college>
+<branch>BRANCH : Electronics and Communication Engineering
+</branch>
+
+<year>YEAR : 2015</year>
+
+<e-mail>E-Mail : chethan@gmail.com</e-mail>
+</student>
+
+</students>
+
+</html>
